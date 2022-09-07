@@ -71,3 +71,27 @@ section {
     height: 120px;
 
 }
+
+
+.container8 {
+    background-color: chartreuse;
+    display: flex;
+    position: relative;
+    min-width: 468px;
+    height: 160px;
+    border-radius: 8px;
+    align-items: flex-end;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+
+.box5 {
+    display: flex;
+    background-color: black;
+    border-radius: 4px;
+    height: 78px;
+    width: 78px;
+    flex-direction: row;
+}
+

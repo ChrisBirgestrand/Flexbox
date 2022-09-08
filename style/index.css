@@ -1,8 +1,8 @@
 body {
     background-color: rgb(250, 127, 127);
 }
-
-
+/* Container # goes from left to right, top to bottom */
+/* Top left container */
 .container {
     background-color: chartreuse;
     display: flex;
@@ -44,14 +44,15 @@ body {
    margin-bottom: 19px;
 }
 
+ /* Top right container */
 .container-2 {
     background-color: chartreuse;
     display: flex;
-    position: relative;
+    position: absolute;
     min-width: 468px;
     height: 160px;
     border-radius: 8px;
-    top: 20px;
+    top: 28px;
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -73,17 +74,17 @@ section {
 }
 
 
-.container8 {
+.container3 {
     background-color: chartreuse;
     display: flex;
-    position: relative;
+    position: absolute;
     min-width: 468px;
     height: 160px;
     border-radius: 8px;
-    align-items: flex-end;
-    margin-right: 20px;
+    align-items: center;
+    justify-content: end;   
     margin-top: 20px;
-    
+       
 }
 
 .box5 {
@@ -93,5 +94,111 @@ section {
     height: 78px;
     width: 78px;
     flex-direction: row;
+    margin-right: 20px;
 }
 
+.container-4 {
+    background-color: chartreuse;
+    display: flex;
+    position: absolute;
+    min-width: 468px;
+    height: 160px;
+    border-radius: 8px;
+    margin-top: 40px;
+    justify-content: end;
+    justify-content: space-between;
+
+}
+
+.box6 {
+    display: flex;
+    background-color: black;
+    border-radius: 4px;
+    height: 78px;
+    width: 78px;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.box7 {
+    display: flex;
+    background-color: black;
+    border-radius: 4px;
+    height: 78px;
+    width: 78px;
+    align-self: flex-end;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.container5 {
+    display: flex;
+    background-color: chartreuse;
+    border-radius: 4px;
+    min-width: 468px;
+    height: 160px;
+    position: absolute;
+    margin-top: 200px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.box8 {
+    display: flex;
+    background-color: rgb(212, 34, 34);
+    border-radius: 4px;
+    width: 78px;
+    align-self: stretch;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.box9 {
+    display: flex;
+    background-color: black;
+    border-radius: 4px;
+    height: 64px;
+    width: 78px;
+    align-self: center;
+
+}
+/* Text for box9 */
+.Text {
+    color: aqua;
+    padding: 4px;
+}
+
+.container6 {
+    display: flex;
+    background-color: chartreuse;
+    border-radius: 4px;
+    min-width: 468px;
+    height: 160px;
+    position: absolute;
+    margin-top: 220px;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.box10 {
+    display: flex;
+    background-color: black;
+    border-radius: 4px;
+    height: 78px;
+    width: 78px;
+  
+}
+
+.box11 {
+    display: flex;
+    background-color: black;
+    border-radius: 4px;
+    height: 78px;
+    width: 78px;
+    flex-grow: calc(0.5);
+}

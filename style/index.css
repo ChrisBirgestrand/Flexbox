@@ -12,7 +12,8 @@ body {
     border-radius: 8px;
     align-items: flex-end;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 90px;
+    margin-left: 98px;
     
 }
 
@@ -52,10 +53,11 @@ body {
     min-width: 468px;
     height: 160px;
     border-radius: 8px;
-    top: 28px;
+    top: 98px;
     align-items: center;
     justify-content: center;
     gap: 20px;
+    
     
  
 }
@@ -63,6 +65,7 @@ body {
 section {
     display: inline-block;
 }
+
 
 .box4 {
     background-color: rgb(19, 57, 83);
@@ -84,6 +87,7 @@ section {
     align-items: center;
     justify-content: end;   
     margin-top: 20px;
+    margin-left: 98px;
        
 }
 
@@ -141,6 +145,7 @@ section {
     height: 160px;
     position: absolute;
     margin-top: 200px;
+    margin-left: 98px;
     justify-content: center;
     justify-content: space-evenly;
 }
@@ -201,4 +206,15 @@ section {
     height: 78px;
     width: 78px;
     flex-grow: calc(0.5);
+}
+
+.clickme {
+    position: relative; top: 380px; left: 530px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

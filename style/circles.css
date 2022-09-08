@@ -1,3 +1,37 @@
 body {
     background-color: aqua;
 }
+
+.takemeback {
+    position: relative; top: 380px; left: 530px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: chartreuse;
+    display: flex;
+    position: relative;
+    width: 273px;
+    height: 220px;
+    border-radius: 8px;
+    margin-top: 120px;
+    margin-left: 146px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-items: flex-start;
+    
+}
+
+.circle1 {
+    background: lightblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px; margin-top: 20px;
+}
